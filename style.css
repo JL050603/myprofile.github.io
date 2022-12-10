@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+overflow:hidden;
+height:auto;
+background-image: url(./img/reu);
+}
+main{
+    overflow: hidden;
+    display: flex;
+}
+header{
+    width: 100%;
+    background: black;
+    height: 70px;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    background: black;
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    background: black;
+    float: left;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#neon{
+    color: black;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    background: black;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.si{
+    float: left;
+}
+
+.sd{
+    margin-right: 70px;
+    margin-left: 14%;
+    margin-top: 18px;
+    border: 5px solid rgb(2, 2, 2);
+    border-radius: 30px;
+    width: 18%;
+    background-color: rgba(2, 26, 94, 0.737);
+}
+
+nav ul li a:hover{
+    color: cyan;
+}
+
+a{
+    text-decoration: none;
+}
+.img{
+    overflow: hidden;
+    width: 100%;
+}
+#img2{
+    width: 100%;
+}
+h3{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.791);
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 320px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: azure;
+    overflow: hidden;
+    padding: 2px 5px 2px 5px;
+    border: 3px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button a{
+    color: blue;
+}
+
+button:hover{
+    background-color: rgb(255, 208, 0);
+}
+#NEXT{
+    background-color: rgba(2, 26, 94, 0.737);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    width: 120%;
+    overflow: hidden;
+}
+#sd2{
+    width: 60%;
+    display: flex;
+}
+h3{
+    text-align: left;
+    color: rgb(239, 0, 0);
+}
+
+
+
+
+
+
+

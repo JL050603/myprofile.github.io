@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+}
+
+.ci{
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    border: 5px solid blue;
+
+}
+
+.cd{
+    margin-top: 50px;
+    margin-left: 500px;
+    text-align: center;
+    border: 5px solid blue;
+
+}
+
+.ci h3{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: darkkhaki;
+
+}
+
+.ci p{
+   margin-top: 50px;
+
+}
+
+
+.cd h3{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: darkkhaki;
+}
+
+.cd p{
+    margin-top: 50px;
+ 
+ }
+
+ .link{
+    float: right;
+    margin-right: 100px;
+    font-size: 30px;
+    margin-top: 100px;
+
+ }
+

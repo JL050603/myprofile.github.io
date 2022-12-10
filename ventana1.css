@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./img/tyu');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+
+}
+
+.img1,.img2,.img3{
+    margin-right: 100px;
+    width: 200px;
+    border-radius: 15px;
+}
